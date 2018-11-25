@@ -287,6 +287,7 @@ $(document).ready(function() {
                   echo "<script>alert(\"There was an error.\");</script>";
             }
           }
+        ?>
 
 	
 
