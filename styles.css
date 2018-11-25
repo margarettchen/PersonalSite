@@ -1,0 +1,573 @@
+/*----------------------------------------
+HERO PAGE 
+----------------------------------------*/
+
+.hero-image { 
+  background: 
+  	linear-gradient(
+  	  rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0)
+    ),
+  	url("margaret.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  width: auto;
+  margin: -10px -10px 0px -10px;
+}
+
+.intro {
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 140px;
+	top: 130px;
+	margin-bottom: 600px;
+	overflow: hidden;
+}
+
+.intro h3 {
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-size: 26px;
+}
+
+.intro h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 60px;
+	margin-top: -10px;
+}
+
+.hero-image {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
+
+.down-arrow {
+	width: 50px;
+}
+
+.down-arrow:hover {
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 375px) {
+	.intro {
+		margin-top: 130px;
+		margin-left: -90px;
+	}
+
+	.intro h1 {
+		font-size: 40px;
+	}
+}
+
+/*----------------------------------------
+ABOUT ME SECTION
+----------------------------------------*/
+.about-me {
+	background: #EEEEEE;
+	/*background: #CFD7D2;*/
+	margin: -70px -10px 0px -10px;
+	padding-bottom: 130px;
+	padding-top: 150px;
+}
+
+.about-me h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 70px;
+	font-weight: normal;
+	display: inline-block;
+	padding-left: 30%;
+}
+
+.description {
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	font-family: "open sans", sans-serif;
+}
+
+hr {
+	border: 2px solid #000;
+	width: 30%;
+	margin-top: -20px;
+	margin-left: -0.5%;
+}
+
+
+.aboutme-img {
+	width: 300px;
+	display: inline-block;
+    margin-left: 15%;
+}
+
+.description h4 {
+	padding-top: 20px;
+	width: 300px;
+	margin-left: 10%;
+}
+
+.description p {
+	width: 300px;
+	margin-left: 10%;
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+.github, .linkedin, .resume {
+	display: inline-block;
+	margin: 1%;
+	width: 30px;
+}
+
+.github {
+	margin-left: -235px;
+}
+
+.box {
+	background-color: white;
+	padding-bottom: 45px;
+	width: 350px;
+	margin-left: 70px;
+}
+
+#Logo {
+	transition: all 0.5s;
+}
+
+#Logo.smaller {
+	width: 510px;
+}
+
+/*----------------------------------------
+EXPERIENCE SECTION
+----------------------------------------*/
+.experience h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.experience-image, .ex-description {
+	display: inline-block;
+}
+
+.experience-image {
+	width: 100px;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+}
+
+.FMlogo {
+	height: 83px;
+}
+
+.ex-description {
+	width: 500px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.date {
+	font-family: "Open Sans", sans-serif;
+	margin-left: 25%;
+	width: 150px;
+	margin-top: -50px;
+}
+
+.experience-row {
+	margin-bottom: 35px;
+}
+
+.experience {
+	padding-bottom: 70px;
+}
+
+.GSlogo {
+	width: 90px;
+}
+
+
+/*----------------------------------------
+PAST PROJECTS SECTION
+----------------------------------------*/
+.past-projects {
+	background-color: #88BDBC;
+	margin: 0 -10px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.past-projects h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.img1 {
+	background: url("relish.jpg") no-repeat center center;
+}
+
+.img2 {
+	background: url("hustle.jpg") no-repeat center center;
+}
+
+
+.img3 {
+	background: url("cville-weekly.jpg") no-repeat center center;
+}
+
+.img4 {
+	background: url("jarexchange.jpg") no-repeat center center;
+}
+
+.img5 {
+	background: url("womensinitiative.jpg") no-repeat center center;
+}
+
+.img6 {
+	background: url("rvcc.jpg") no-repeat center center;
+}
+
+.link1 , .link2 , .link3 , .link4 , .link5 , .link6 {
+	width: 33%;
+	display: inline-block;
+	margin: 1.5%;
+}
+
+.link1, .link3, .link5 {
+	margin-left: 15%;
+}
+
+.link-title {
+	position: absolute;
+	color: white;
+	font-family: "open sans", sans-serif;
+	bottom: 0;
+	text-align: center;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.img1 , .img2 , .img3 , .img4 , .img5 , .img6 {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background-size: auto 100%;
+	position: relative;
+	transition: .5s;
+	border: 4px solid rgba(0,0,0,0.7);
+}
+
+.img1:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.img2:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.img3:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.img4:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.img5:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.img6:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+/*  overflow: hidden;*/
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+}
+
+/*.text h3 {
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+}
+*/
+.img1:hover .overlay {
+	width: 100%;
+}
+
+.img2:hover .overlay {
+	width: 100%;
+}
+
+.img5:hover .overlay {
+	width: 100%;
+}
+
+.img6:hover .overlay {
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+	.link1 , .link2 , .link3 , .link4 , .link5 , .link6 {
+		margin: 1.25%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.link1 , .link2 , .link3 , .link4 , .link5 , .link6 {
+		width: 47%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.link1 , .link2 , .link3 , .link4 , .link5 , .link6 {
+		width: 90%;
+		margin-left: 4%;
+		margin-bottom: 25px;
+	}
+}
+
+/*----------------------------------------
+SERVICES SECTION
+----------------------------------------*/
+.services {
+	background: #EEEEEE;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	margin: 0px -10px;
+}
+
+.services h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.service-offering {
+	width: 23%;
+	margin-left: 2%;
+	display: inline-block;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+.service-offering:nth-child(2){
+	padding-left: 11%;
+}
+
+.service-offering img {
+	width: 100px;
+}
+
+.hover-icon {
+	display: none;
+}
+
+.original-icon:hover {
+	border-radius: 50%;
+	background-color: #FEE433;
+	animation: bounce 1s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+/*----------------------------------------
+IPHONE6 RESPONSIVENESS SECTION
+----------------------------------------*/
+body {
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 375px) {
+	.hero-image {
+		width: 510px;
+	}
+
+	.about-me {
+		width: 510px;
+	}
+
+	.aboutme-img {
+		width: 390px;
+		margin-left: 63px;
+	}
+
+	.description {
+		margin-left: 120px;
+	}
+
+	.rectangle {
+		left: 85px;
+		top: 1307px;
+		height: 310px;
+	}
+
+	.github, .linkedin, .resume {
+		margin-top: 350px;
+	}
+
+	.experience h1 {
+		margin-left: 130px;
+	}
+
+	.experience-image {
+		width: 45%;
+		margin-left: 165px;
+	}
+
+	.ex-description h4 {
+		text-align: center;
+		margin-top: -30px;
+	}
+
+	.ex-description p {
+		margin: 0 40px 0 40px;
+	}
+
+	.date {
+		display: none;
+	}
+
+	.past-projects {
+		width: 510px;
+	}
+
+	.services {
+		width: 510px;
+	}
+
+	.service-offering {
+		display: block;
+		width: 80%;
+	}
+
+}
+
+/*----------------------------------------
+CONTACT ME 
+----------------------------------------*/
+.form-title p{
+	font-size: 38px;
+	color: white;
+	margin-top: 0;
+}
+.form-over{
+	height: auto;
+	width: 600px;
+	background-color: white;
+	padding:30px;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+.form-over p{
+	margin-bottom: 1px;
+	margin-top: 6px;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.drop{
+	border-style: none;
+	background-color: #EEEEEE; 
+	height: 42px;
+	border-radius: 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+.signup-form input[type=text],.signup-form input[type=password]{
+	border-style: none;
+	background-color: #EEEEEE; 
+	height: 40px;
+	width: calc(100% - 15px);
+	border-radius: 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.signup-form input[type=submit]{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	border-style: none;
+	background-color:#E77171; 
+	height: 40px;
+	width: 100%;
+	border-radius: 8px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+.signup-form input[type=checkbox]{
+	margin-top:15px;
+}
+.signup-form textarea[name=message]{
+	border-style: none;
+	background-color:#EEEEEE; 
+	height: 70px;
+	padding: 10px;
+	width: calc(100% - 25px);
+	border-radius: 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	resize: none;
+}
+
